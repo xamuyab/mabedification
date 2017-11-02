@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package kerangalam.uyab;
-
+/*
+This class was originally came from fr.ericlab.mabed.app.Main and I moved the main method here
+*/
 import fr.ericlab.mabed.algo.MABED;
 import fr.ericlab.mabed.app.Configuration;
 import fr.ericlab.mabed.structure.Corpus;
@@ -25,7 +27,7 @@ public class Mabedification {
      * @email adrien.guille@univ-lyon2.fr
      */
     public static void main(String[] args) throws IOException {
-        System.out.println("MABEDIFICATION--uyab");
+        System.out.println("MABEDIFICATION -- bayu modified  ");
         Locale.setDefault(Locale.US);
         Configuration configuration = new Configuration();
         Corpus corpus = new Corpus(configuration);
