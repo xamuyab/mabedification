@@ -140,9 +140,10 @@ public class GlobalIndexer {
         }
         return vocabulary;
     }
-
+ 
+    //method below was originally empty so I made few changes --- bayu
     public void index(String input, String stopwords) throws InterruptedException, IOException {
-        System.out.println("Kera Ngalam Edit");
+        System.out.println("Bayu Edit");
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
